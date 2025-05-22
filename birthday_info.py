@@ -95,8 +95,7 @@ def print_date_in_display_style(date):
     for digit in str_date:
         for i in range(5):
             rows[i] += digit_display.get(digit, digit_display[' '])[i] + '  '
-    print("Дата рождения в виде электронного табло:
-")
+    print("Дата рождения в виде электронного табло:")
     for row in rows:
         print(row)
 
